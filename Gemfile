@@ -29,7 +29,9 @@ gem "jbuilder"
 
 # Use Redis adapter to run Action Cable in production
 # gem "redis", "~> 4.0"
-
+# CUSTON
+gem "simple_form", github: "heartcombo/simple_form"
+gem "faker"
 # Use Kredis to get higher-level data types in Redis [https://github.com/rails/kredis]
 # gem "kredis"
 
@@ -63,4 +65,3 @@ end
 
 gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
-gem "simple_form", github: "heartcombo/simple_form"
